@@ -51,7 +51,7 @@
     background-position: 0 320%;
     margin:65px 0 0 0;
     animation-name: rain-animation;
-    animation-duration: 8s;
+    animation-duration: 8s; 
     animation-delay: 10s;
     animation-iteration-count: 1;
     animation-timing-function: linear;
@@ -164,35 +164,36 @@
 
 
 @keyframes cloud-animation {
+
     0% {
-        left: 950px;
+        left: 960px;
     }
 
     10% {
-        left: 750px;
+        left: 740px;
         width: 200px;
     }
 
     30% {
-        left: 375px;
+        left: 370px;
     }
 
     60% {
-        left: 375px;
+        left: 380px;
     }
 
     85% {
         left: 0;
-        width: 200px;
-        background-position: 0 0;
+        width: 210px;
+        background-position: 0 5px;
     }
 
     100% {
         left: 0;
         width: 0;
-        background-position: -200px 0;
+        background-position: -210px 0;
     }
-}
+  }
 
 
 @keyframes rain-animation {
